@@ -40,16 +40,29 @@ The checks are heuristic review aids—not semantic entailment, hallucination de
 
 ## Interface
 
-Screenshots should be captured from the running application using synthetic or non-sensitive data. See [Screenshot guide](docs/SCREENSHOTS.md).
+Screenshots below are captured from the running application. See the [screenshot guide](docs/SCREENSHOTS.md) for the file list and capture notes.
 
-<!--
-After capturing real screenshots, place them in docs/images/ and uncomment the relevant lines:
+### Dashboard
 
-![Memory Doctor overview](docs/images/overview.png)
-![SDK Contract Checker](docs/images/sdk-contract-checker.png)
-![Memory Diagnostics](docs/images/memory-diagnostics.png)
-![Summary Grounding Lab](docs/images/summary-grounding-lab.png)
--->
+![Memory Doctor dashboard](docs/images/dashboard.png)
+
+### SDK Contract Checker
+
+![SDK Contract Checker — view 1](docs/images/sdk-checker-1.png)
+
+![SDK Contract Checker — view 2](docs/images/sdk-checker-2.png)
+
+### Memory Diagnostics
+
+![Memory Diagnostics — view 1](docs/images/memory-diagnostics-1.png)
+
+![Memory Diagnostics — view 2](docs/images/memory-diagnostics-2.png)
+
+### Summary Grounding Lab
+
+![Summary Grounding Lab — view 1](docs/images/grounding-lab-1.png)
+
+![Summary Grounding Lab — view 2](docs/images/grounding-lab-2.png)
 
 ## Quick start
 
@@ -130,7 +143,15 @@ memory-doctor/
 │   ├── LIMITATIONS.md
 │   ├── SCREENSHOTS.md
 │   ├── SECURITY.md
-│   └── USER_GUIDE.md
+│   ├── USER_GUIDE.md
+│   └── images/
+│       ├── dashboard.png
+│       ├── sdk-checker-1.png
+│       ├── sdk-checker-2.png
+│       ├── memory-diagnostics-1.png
+│       ├── memory-diagnostics-2.png
+│       ├── grounding-lab-1.png
+│       └── grounding-lab-2.png
 ├── requirements.txt
 └── README.md
 ```

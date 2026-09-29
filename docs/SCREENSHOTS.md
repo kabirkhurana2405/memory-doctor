@@ -1,36 +1,49 @@
 # Screenshot Guide
 
-Use real screenshots from your running Memory Doctor app. Do not use mockups or synthetic images as though they were product screenshots.
+The repository's screenshot gallery uses the PNG files listed below. Keep the filenames and letter case exactly as shown so the relative image links in `README.md` work on GitHub.
 
-## Capture
-1. Run the app locally.
-2. Use the synthetic grounding example and non-sensitive demo inputs.
-3. Maximize the browser and keep the interface in its normal dark theme.
-4. Capture with **Win + Shift + S** on Windows.
-5. Save PNG files in `docs/images/` using the filenames below.
-6. Make sure no API keys, personal data, local file paths, tokens, or unrelated desktop content are visible.
+Use genuine screenshots from the running Memory Doctor application. Do not present AI-generated mockups as screenshots of the actual product.
 
-## Recommended screenshots
+## Capture and safety
 
-| Filename | Page | What to show |
+1. Run the app locally and open the relevant page.
+2. Use synthetic or non-sensitive demo inputs.
+3. Keep the application in its normal dark theme and frame the relevant content clearly.
+4. On Windows, use **Win + Shift + S** to capture the required area.
+5. Save each PNG in `docs/images/` with the exact filename below.
+6. Before committing, confirm that no API keys, tokens, personal data, private memory, or unrelated desktop content are visible.
+
+## Screenshot files
+
+| Filename | Page | Suggested content |
 |---|---|---|
-| `overview.png` | Overview | Sidebar, title, and all tool cards |
-| `sdk-contract-checker.png` | SDK Contract Checker | Loaded spec, source mode, detected routes and comparison results |
-| `memory-diagnostics.png` | Memory Diagnostics | Successful health response and the clearly labelled memory access outcome; keep the key field empty or blurred |
-| `summary-grounding-lab.png` | Summary Grounding Lab | Synthetic source and summary, charts, and findings |
+| `dashboard.png` | Dashboard / Overview | Main landing view and navigation. |
+| `sdk-checker-1.png` | SDK Contract Checker | First useful view of the checker, such as specification/source selection. |
+| `sdk-checker-2.png` | SDK Contract Checker | Comparison results or route findings. |
+| `memory-diagnostics-1.png` | Memory Diagnostics | Health check and diagnostic controls. Keep credentials out of view. |
+| `memory-diagnostics-2.png` | Memory Diagnostics | Diagnostic outcome or report view, using safe sample data. |
+| `grounding-lab-1.png` | Summary Grounding Lab | Source/summary inputs and analysis controls, using synthetic text. |
+| `grounding-lab-2.png` | Summary Grounding Lab | Charts and review findings. |
 
-For the SDK screenshot, use a small example OpenAPI spec and safe source file if the installed SDK output is too large or exposes local paths.
+The numbered screenshots are complementary views; they do not need to show different pages. If a screenshot does not add useful information, remove its README reference and this table entry rather than keeping a redundant image.
 
-## Add screenshots to the README
-Once the files exist, add this Markdown to the README where you want the screenshot gallery:
+## README gallery
+
+The README already references these paths:
 
 ```markdown
-## Screenshots
+![Memory Doctor dashboard](docs/images/dashboard.png)
 
-![Overview](docs/images/overview.png)
-![SDK Contract Checker](docs/images/sdk-contract-checker.png)
-![Memory Diagnostics](docs/images/memory-diagnostics.png)
-![Summary Grounding Lab](docs/images/summary-grounding-lab.png)
+![SDK Contract Checker — view 1](docs/images/sdk-checker-1.png)
+![SDK Contract Checker — view 2](docs/images/sdk-checker-2.png)
+
+![Memory Diagnostics — view 1](docs/images/memory-diagnostics-1.png)
+![Memory Diagnostics — view 2](docs/images/memory-diagnostics-2.png)
+
+![Summary Grounding Lab — view 1](docs/images/grounding-lab-1.png)
+![Summary Grounding Lab — view 2](docs/images/grounding-lab-2.png)
 ```
 
-Only include images that you have actually captured. If you publish one screenshot first, include only that image until the others are ready.
+## Demo video
+
+A demo video can complement these screenshots. Record the actual application, then add a link to the hosted video in the README once it is ready. Keep the recording free of secrets and personal data; use AI for narration, captions, or editing rather than generating fake app interactions.
